@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import styles from './AddEmployee.module.css';
+import axios from 'axios';
 
 const AddEmployee = ({ onAddEmployee }) => {
   const [formData, setFormData] = useState({
