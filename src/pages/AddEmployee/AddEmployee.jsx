@@ -38,7 +38,7 @@ const AddEmployee = ({ onAddEmployee }) => {
     };
 
     axios
-      .post("https://hr-app-backend-9g16.onrender.com/employees", newEmployee)
+      .post("https://sonia-backend-a6q4.onrender.com/employees", newEmployee)
       .then((response) => {
         onAddEmployee(response.data);
         navigate('/person');
